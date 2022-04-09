@@ -1,0 +1,36 @@
+html {
+    background-color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'righteous', sans-serif;
+}
+
+body:hover {
+    /*-webkit-filter: blur(10px);*/
+}
+
+#title {
+    text-transform: uppercase;
+    margin-left: calc(10%/6);
+    margin-top: 10%;
+    font-size: 6rem;
+    border-bottom: white 1px solid;
+}
+
+
+img {
+    /*width: 30%;*/
+    height: 30%;
+    width: 30%;
+    margin: calc(10%/6);
+    transform: scale(1);
+    transition: transform .2s;
+}
+
+.photos:hover {
+    transform: scale(1.2);
+    -webkit-filter: blur(0px);
+}
